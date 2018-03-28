@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movie on What we talk about when we talk about NinoDui</title>
+    <link>ninodui.github.io/tags/movie/</link>
+    <description>Recent content in Movie on What we talk about when we talk about NinoDui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Oct 2017 15:54:12 +0800</lastBuildDate>
+    
+	<atom:link href="ninodui.github.io/tags/movie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>愚行录</title>
+      <link>ninodui.github.io/posts/fool/</link>
+      <pubDate>Sun, 15 Oct 2017 15:54:12 +0800</pubDate>
+      
+      <guid>ninodui.github.io/posts/fool/</guid>
+      <description>周末赋闲，看完了心心念念许久的电影《愚行录》。 电影十分颓且丧，想想为什么美好的周末会选择看这样一部沉郁的电影，却又不得不承认，少年时的经历总</description>
+    </item>
+    
+  </channel>
+</rss>

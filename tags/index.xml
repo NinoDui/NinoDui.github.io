@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on What we talk about when we talk about NinoDui</title>
+    <link>ninodui.github.io/tags/</link>
+    <description>Recent content in Tags on What we talk about when we talk about NinoDui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Aug 2017 15:43:07 +0800</lastBuildDate>
+    
+	<atom:link href="ninodui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Annual Review</title>
+      <link>ninodui.github.io/tags/annual-review/</link>
+      <pubDate>Fri, 25 Aug 2017 15:43:07 +0800</pubDate>
+      
+      <guid>ninodui.github.io/tags/annual-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diary</title>
+      <link>ninodui.github.io/tags/diary/</link>
+      <pubDate>Sun, 15 Oct 2017 15:54:12 +0800</pubDate>
+      
+      <guid>ninodui.github.io/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mayday</title>
+      <link>ninodui.github.io/tags/mayday/</link>
+      <pubDate>Sun, 20 Aug 2017 15:52:32 +0800</pubDate>
+      
+      <guid>ninodui.github.io/tags/mayday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Movie</title>
+      <link>ninodui.github.io/tags/movie/</link>
+      <pubDate>Sun, 15 Oct 2017 15:54:12 +0800</pubDate>
+      
+      <guid>ninodui.github.io/tags/movie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
