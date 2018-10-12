@@ -4,16 +4,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 
-  <title>Tags - What we talk about when we talk about NinoDui</title>
-  <meta content='Tags - What we talk about when we talk about NinoDui' property='title' />
-  <meta content='Tags - What we talk about when we talk about NinoDui' property='og:title' />
+  <title>Python Referrence Summary - What we talk about when we talk about NinoDui</title>
+  <meta content='Python Referrence Summary - What we talk about when we talk about NinoDui' property='title' />
+  <meta content='Python Referrence Summary - What we talk about when we talk about NinoDui' property='og:title' />
 
 
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://NinoDui.github.io/tags/" />
+<meta property="og:description" content="Python Referrence Summary In-place modification nums[:] = nums[::-1] # Right. Reverse the list, in-place nums = nums[::-1] # Wrong, nums refer to a newly created list nums[k:] = nums[-1:k-1:-1] # Right. Reverse part of the list, in-place.  For example:
+In [24]: c = [i for i in range(0, 5)] In [25]: c Out[25]: [0, 1, 2, 3, 4] In [26]: id(c) Out[26]: 4572965320 In [27]: c[:] = c[::-1] In [28]: id(c) Out[28]: 4572965320 In [29]: c Out[29]: [4, 3, 2, 1, 0] In [30]: c = c[::-1] In [31]: id(c) Out[31]: 4569862664 In [32]: c Out[32]: [0, 1, 2, 3, 4]  Multiple Dimensional List A = [] * 3 # Wrong." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://NinoDui.github.io/post/pythonreferrencesummary/" />
 
 
+<meta property="article:published_time" content="2018-10-12T17:13:08&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-10-12T17:13:08&#43;08:00"/>
 
 
 
@@ -77,17 +81,83 @@ type="image/x-icon"/>
 </nav>
   
 <main class="center mv4 content-width ph3">
-  
-  <h1 class="f2 fw6 heading-font">Tags</h1>
-  
-  <ul class="list-pages list pl0">
+  <div class="f3 fw6 heading-color heading-font post-title">Python Referrence Summary</div>
+  <p class="silver f6 mt1 mb4 post-meta">
+    <time>12 Oct 2018</time> 
     
-  </ul>
+    
+    
+  </p>
+  <div class="lh-copy post-content">
+
+<h1 id="python-referrence-summary">Python Referrence Summary</h1>
+
+<h2 id="in-place-modification">In-place modification</h2>
+
+<pre><code class="language-Python">nums[:] = nums[::-1]    # Right. Reverse the list, in-place
+nums = nums[::-1]       # Wrong, nums refer to a newly created list
+
+nums[k:] = nums[-1:k-1:-1]  # Right. Reverse part of the list, in-place.
+</code></pre>
+
+<p>For example:</p>
+
+<pre><code class="language-Python">In [24]: c = [i for i in range(0, 5)]
+
+In [25]: c
+Out[25]: [0, 1, 2, 3, 4]
+
+In [26]: id(c)
+Out[26]: 4572965320
+
+In [27]: c[:] = c[::-1]
+
+In [28]: id(c)
+Out[28]: 4572965320
+
+In [29]: c
+Out[29]: [4, 3, 2, 1, 0]
+
+In [30]: c = c[::-1]
+
+In [31]: id(c)
+Out[31]: 4569862664
+
+In [32]: c
+Out[32]: [0, 1, 2, 3, 4]
+</code></pre>
+
+<h2 id="multiple-dimensional-list">Multiple Dimensional List</h2>
+
+<pre><code class="language-Python">A = [] * 3              
+# Wrong. Equal to A * 3 ==&gt; [A, A, A]
+# A.append(3) -&gt; [[3], [3], [3]]
+# Elements refer to the same list.
+
+A = [[] for i in range(0, 3)]
+# Right. Create new list each time
+</code></pre>
+</div>
 </main>
-<div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+ 
 
+
+
+
+
+
+<div class="tl fixed list-pages lh-copy" id="contents-list"></div>
+
+
+
+<div class="pagination tc tr-l db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+  
 <a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
-
+<br>
+  <p class="mb0 mt2">
+  
+  
+  </p>
 </div>
 
   <footer class="content-width mt0 mt5-l mb4 f6 center ph3 gray tc tl-l">
@@ -98,6 +168,10 @@ type="image/x-icon"/>
   
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+<style>.is-active-link::before { background-color: var(--secondary-color); }</style>
 
 
 
@@ -142,6 +216,17 @@ function topFunction() {
 
 
 
+
+if (document.getElementById("contents-list") !== null && document.getElementsByClassName("post-content").length !== 0) { 
+  tocbot.init({
+    
+    tocSelector: '#contents-list',
+    
+    contentSelector: '.post-content',
+    
+    headingSelector: 'h1, h2, h3',
+  });
+}
 
 
 </script>
