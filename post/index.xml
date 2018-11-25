@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on What we talk about when we talk about NinoDui</title>
+    <link>https://NinoDui.github.io/post/</link>
+    <description>Recent content in Posts on What we talk about when we talk about NinoDui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Oct 2018 17:13:08 +0800</lastBuildDate>
+    
+	<atom:link href="https://NinoDui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Summary</title>
+      <link>https://NinoDui.github.io/post/pythonreferrencesummary/</link>
+      <pubDate>Fri, 12 Oct 2018 17:13:08 +0800</pubDate>
+      
+      <guid>https://NinoDui.github.io/post/pythonreferrencesummary/</guid>
+      <description>Python Summary String Equals In [1]: s, t = &#39;Hello&#39;, &#39;Hello&#39; In [2]: s == t Out[2]: True In [3]: s is t Out[3]: True In [4]: v = &amp;quot;&amp;quot;.join([&amp;quot;He&amp;quot;, &amp;quot;llo&amp;quot;]) In [5]: s == v Out[5]: True In [6]: s is v Out[6]: False In [7]: id(s), id(t), id(v) Out[7]: (4564168352, 4564168352, 4564117072)  is is identity testing, == is equality testing; which means is equals to id(A) == id(B).</description>
+    </item>
+    
+  </channel>
+</rss>
