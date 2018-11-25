@@ -177,6 +177,10 @@ In [32]: c
 Out[32]: [0, 1, 2, 3, 4]
 </code></pre>
 
+<p>Special attention: <code>String</code> is immutable, so given <code>s</code> is a <code>String</code>
+- <code>s[:] = s[::-1]</code> is not acceptable.
+- <code>reversed(s)</code> is not acceptable.</p>
+
 <h3 id="multiple-dimensional-list">Multiple Dimensional List</h3>
 
 <pre><code class="language-Python">A = [] * 3              
